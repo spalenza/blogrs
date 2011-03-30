@@ -1,0 +1,172 @@
+/* 
+    Document   : head
+    Created on : 29/01/2011, 21:51:22
+    Author     : Usuario
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    background: #1E68BF;
+    padding-top: 15px;
+}
+
+/* REMOVER CAIXA PONTILHADA DO IE QUANDO CLICAMOS NO LINK */
+a, input {
+    outline: none;
+}
+
+/*div#head {
+    /* background: url("../img/bg_head.jpg") repeat-x top;
+    background: #1E68BF;
+    margin-bottom: 15px;
+}*/
+
+div#head_container {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    margin: auto;
+    width: 940px;
+    padding: 20px 20px 0 20px;
+    background: #FFF;
+    height: 165px;
+    background: #FFF;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#FFF), to(#F3F3F3));
+    background: -moz-linear-gradient(#FFF, #F3F3F3);
+    background: linear-gradient(#FFF, #F3F3F3);
+    -pie-background: linear-gradient(#FFF, #F3F3F3);
+}
+
+div#head_container a {
+    float: left;
+}
+
+div#logo {
+    float: left;
+    width: 287px;
+    height: 100px;
+    padding-bottom: 20px;
+    background: url("../img/logo_rs.png") no-repeat top;
+}
+
+div#logo:hover {
+    background: url("../img/logo_rs_hover.png") no-repeat top;
+}
+
+div#search {
+    float: left;
+    width: 413px;
+    height: 100px;
+}
+
+div#menu {
+    float: left;
+    width: 700px;
+    height: 44px;
+    border-top: solid 1px #E4E4E4;
+}
+
+div#menu img {
+    padding-top: 9px;
+    float: left;
+}
+
+div#menu ul {
+    list-style: none;
+}
+
+div#menu ul li {
+    display: inline;
+}
+
+.menu_one {
+    display: block;
+    padding: 0 14px;
+    float: left;
+}
+
+.menu_one a {
+    font-size: 20px;
+    float: left;
+    padding-top: 10px;
+    text-decoration: none;
+    color: #9D5EA6;
+}
+
+.menu_one a:hover {
+    color: #B381BA;
+}
+
+div#separates {
+    height: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* LOGIN */
+
+fieldset#login {
+    padding: 10px 20px 0 35px;
+  /*  -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: #174F93 0px 2px 3px;
+    -moz-box-shadow: #174F93 0px 2px 3px;
+*/
+    border: none;
+    border-left: 1px solid #E5E5E5;
+    clear: right;
+    float: right;
+    color: #B5B5B5;
+}
+
+fieldset#login label {
+    padding-top: 5px;
+    font-size: 12px;
+    display: block;
+}
+
+.input {
+    font-weight: normal;
+    color: #0669DE;
+    height: 22px;
+    padding: 0 2px 0 2px;
+    font-size: 16px;
+    width: 140px;
+    border: solid 1px #C1C1C1;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+input#wp-submit {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+    background: #FFF;
+    padding: 3px 5px 3px 5px;
+    border: solid 1px #C1C1C1;
+    color: #B5B5B5;
+}
+
+input#wp-submit:hover {
+
+    color: #0669DE;
+}

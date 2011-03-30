@@ -1,0 +1,17 @@
+/*
+    Document   : head
+    Created on : 29/01/2011, 21:51:22
+    Author     : Usuario
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+@import url("css/head.css");
+@import url("css/footer.css");
+@import url("css/container.css");
+@import url("css/comments.css");

@@ -1,0 +1,336 @@
+/*
+    Document   : container
+    Created on : 30/01/2011, 00:34:09
+    Author     : Usuario
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+p {
+    font-size: 13px;
+    font-family: Arial;
+    margin: 0 0 15px;
+    color: #333333;
+}
+
+div#container {
+    width: 940px;
+    min-height: 600px;
+    margin: auto;
+    background: #FFF;
+    padding: 20px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+div#posts {
+    width: 70%;
+    float: left;
+    height: 100%;
+    text-align: justify;
+}
+
+div#posts h2 {
+    text-align: left;
+    font-size: 22px;
+}
+
+span {
+    color: #666666;
+    padding: 0 10px 0 5px;
+    font-size: 14px;
+}
+
+span#name_category {
+    font-size: 14px;
+    font-weight: bold;
+    border-left: dotted 1px #CFCFCF;
+    padding: 0 10px 0 15px;
+}
+
+div#posts h3 {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333333;
+}
+
+div#posts a {
+    text-shadow: 0px 0px 0.1em #EAEAEA;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+div#posts a:hover {
+    text-decoration: underline;
+}
+
+
+div#posts p {
+    color: #333333;
+    font-size: 13px;
+    text-shadow: 0px 0px 0.1em #EAEAEA;
+    clear: both;
+    padding: 5px 0 5px 0;
+}
+
+div#single_post {
+    border-top: solid 3px;
+    padding: 10px 0 20px 0;
+    margin-top: 5px;
+}
+
+div#sidebar {
+    width: 25%;
+    float: right;
+    height: 100%;
+    padding-top: 25px;
+}
+
+.sidebar_cotent {
+    float: right;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.sidebar_title {
+    font-family: Georgia, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    float: right;
+    border-top: solid 3px;
+    width: 100%;
+    padding: 5px 0 5px 10px;
+}
+
+div#sidebar_categorias_title {
+    color: #FE6603;
+    border-top-color: #FE6603;
+}
+
+div#sidebar_blogroll_title {
+    color: #9D5EA6;
+    border-top-color: #9D5EA6;
+}
+
+div#sidebar_tag_title {
+    color: #EA0000;
+    border-top-color: #EA0000;
+}
+
+div#sidebar_links_title {
+    color: #3E831E;
+    border-top-color: #3E831E;
+}
+
+div#sidebar_link_first {
+    border-top: none;
+}
+
+.sidebar_link {
+    float: left;
+    width: 90%;
+    padding: 5px 0 5px 5px;
+    border-top: dotted 1px #E0E0E0;
+}
+.sidebar_link a {
+    float: left;
+}
+
+.sidebar_link p {
+    margin: 0;
+    padding: 0;
+    float: right;
+    color: #666666;
+    text-shadow: 0px 0px 0.1em #EAEAEA;
+}
+
+.sidebar_cotent ul {
+    list-style: none;
+}
+
+.sidebar_cotent a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #666666;
+    text-shadow: 0px 0px 0.1em #EAEAEA;
+}
+
+div#sidebar_categorias a:hover {
+    color: #FE6603;
+}
+
+div#sidebar_tag a:hover {
+    color: #EA0000;
+}
+
+div#sidebar_blogroll a:hover {
+    color: #9D5EA6;
+}
+
+div#sidebar_links a:hover {
+    color: #3E831E;
+}
+
+div#single_post img {
+    border: 0;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    margin: 20px 0 20px 0;
+}
+
+p#fonte {
+    font-weight: bold;
+}
+
+p#fonte a {
+    font-size: 13px;
+    color: #2E8CEA;
+}
+
+div#single_post p a {
+    font-size: 13px;
+    color: #2E8CEA;
+    text-decoration: none;
+}
+
+div#single_post p a:hover {
+    text-decoration: none;
+}
+
+/*.sidebar_link:hover {
+    border-left: solid 2px #A80000;
+    cursor: pointer;
+}*/
+
+/* CITACAO */
+
+div#quote {
+    float: right;
+    max-width: 400px;
+    margin-right: 20px;
+}
+
+div#quote span {
+    display: inline;
+}
+
+img#aspas_1 {
+    display: inline;
+}
+
+span#autor {
+    padding-top: 50px;
+    float: right;
+}
+
+img#aspas_2 {
+    float: right;
+    height: 50px;
+    width: 50px;
+    margin: -10px -35px 0 0;
+}
+
+/* HACK PARA MAX-WIDTH NO IE6 */
+div#quote {
+    width: expression(Math.min(parseInt(this.offsetWidth), 300 ) + "px");
+}
+
+/* PAGINAS */
+div#wp-pagenavi {
+    text-shadow: 0px 0px 0.1em #EAEAEA;
+}
+
+.pages {
+    margin-right: 10px;
+}
+
+.page, .first, .last {
+    font-family: Arial;
+    color: #1E68BF;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0 4px 0 4px;
+}
+
+.current {
+    font-family: Arial;
+    padding: 0 4px 0 4px;
+    font-size: 14px;
+    color: #383838;
+    font-weight: bold;
+}
+
+/* CAMPO DIV PARA OBSERCAÇÕES */
+.obs {
+    width: 80%;
+    padding: 15px;
+    border: solid 1px #FF8282;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: auto;
+    color: #5C5C5C;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.post_short {
+    margin-top: 10px;
+}
+.post_short p {
+    display: inline;
+}
+
+.img_post {
+    margin: 0 15px 6px 5px !important;
+    display: inline;
+    border: 0;
+}
+
+.post_short a{
+    border: 0;
+}
+
+p#name_page_category {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h1#page_title {
+    color: #9D5EA6;
+}
+
+div#page_bar {
+    border-top: solid 3px;
+    padding: 10px 0 20px 0;
+    margin-top: 5px;
+    border-color: #9D5EA6;
+}
+
+div#page_bar p {
+    font-size: 13px;
+    text-shadow: 0px 0px 0.1em #EAEAEA;
+}
+
+div#page_bar a {
+    font-size: 13px;
+    color: #338FEA;
+    text-shadow: 0px 0px 0.1em #EAEAEA;
+}
+
+
+div#page_bar h3 {
+    color: #383838;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-shadow: 0px 0px 0.1em #EAEAEA;
+}
